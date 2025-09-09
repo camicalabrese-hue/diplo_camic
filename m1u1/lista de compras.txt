@@ -1,0 +1,6 @@
+comprar:
+chocolates
+galletitas
+soda
+pan
+manzana
