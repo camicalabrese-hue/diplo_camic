@@ -1,0 +1,34 @@
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(0.9);
+  transition: transform 0.5s ease;
+}
+.container.my-5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  background-color: burlywood;
+}
+.col-md-7.col-sm-12 {
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+.container.py-4 {
+    background-color: lightsalmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.accordion-button {
+    background-color: coral;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.fixed-img {
+ height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
