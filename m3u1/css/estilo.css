@@ -2,7 +2,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:  15px;
+    font-size: 15px;
     line-height: 20px;
 }
 
@@ -10,11 +10,12 @@ header {
     background-color: #f19a5c;
     padding: 16px 0;
 }
+
 .carousel-item img {
     width: 100%;
     height: 400px;
     object-fit: contain;
-    background-color: #000; 
+    background-color: #000;
 }
 
 
@@ -53,7 +54,7 @@ nav ul li {
 
 nav ul li a {
     color: black;
-   text-decoration: none;
+    text-decoration: none;
     padding: 5px 6px;
     display: block;
     text-align: center;
@@ -123,9 +124,10 @@ footer {
 /* fin de home*/
 
 /*inicio de nosotros*/
-.historia{
+.historia {
     background-color: #ff914d;
 }
+
 .historia h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 75%;
@@ -138,10 +140,12 @@ footer {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .staff {
-    display: block; 
-  
+    display: block;
+
 }
+
 .staff h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -160,7 +164,7 @@ footer {
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .card-img-top {
@@ -216,7 +220,12 @@ footer {
     align-items: center;
 }
 
-
+.receta img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
 
 .receta:nth-child(even) {
     flex-direction: row-reverse;
@@ -227,16 +236,96 @@ footer {
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
 }
 
 .galeria img {
-    width: 120px;
-    height: 90px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border: 1px solid #ccc;
 }
 
+main.holder {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 /* fin de galeria*/
+/*inicio de contacto*/
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 15px;
+}
+
+.datos ul li {
+    font-size: 14px;
+}
+
+.formulario p {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 12px; 
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+    flex-grow: 1;
+    background-color: white; 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    outline: none; 
+    border-radius: 4px; 
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    background-color: white; 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    outline: none; 
+    border-radius: 4px; 
+}
+
+.formulario input[type="submit"] {
+    background: #f19a5c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    border: none; 
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #ff3131;
+}
+
+/*fin de contacto*/
