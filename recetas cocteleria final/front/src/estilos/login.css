@@ -1,0 +1,125 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 30px 15px;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    padding: 35px 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.login-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.login-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 6px 0;
+}
+
+.login-header p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-campo label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.login-campo input {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.login-campo input:focus {
+    border-color: #ff914d;
+    box-shadow: 0 0 0 3px rgba(255, 145, 77, 0.15);
+}
+
+.login-campo input::placeholder {
+    color: #bbb;
+}
+
+
+.login-btn {
+    background-color: #ff914d;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    margin-top: 5px;
+}
+
+.login-btn:hover {
+    background-color: #e07a3a;
+}
+
+.login-btn:active {
+    transform: scale(0.98);
+}
+
+.login-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.login-error {
+    background-color: #fff3f3;
+    border: 1px solid #ff3131;
+    color: #ff3131;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 25px 20px;
+    }
+}

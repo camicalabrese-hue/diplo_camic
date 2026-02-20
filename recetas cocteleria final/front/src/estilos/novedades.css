@@ -1,0 +1,54 @@
+.novedades {
+    padding: 20px 0;
+}
+
+.novedades h3 {
+    color: #ff3131;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.novedades h4 {
+    color: #333;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.novedades p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.novedades img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.novedades hr {
+    border: none;
+    border-top: 2px solid #ff914d;
+    margin: 20px 0;
+}
+
+.novedades-error {
+    background-color: #fff3f3;
+    border: 1px solid #ff3131;
+    color: #ff3131;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.novedades-vacio {
+    background-color: #fff8f0;
+    border: 1px solid #ff914d;
+    color: #666;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+}

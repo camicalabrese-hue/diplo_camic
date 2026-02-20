@@ -1,0 +1,89 @@
+.historia {
+    background-color: #ffffff;
+}
+
+.historia h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.historia p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.staff {
+    display: block;
+    padding: 20px 0;
+}
+
+.staff h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.staff-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+.staff-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.staff-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+.staff-info {
+    padding: 12px 15px;
+}
+
+.staff-info h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 2px 0;
+}
+
+.staff-info h6 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #ff914d;
+    margin: 0 0 8px 0;
+}
+
+.staff-info p {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+}
+
+
+@media (max-width: 600px) {
+    .staff-cards {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+    }
+}

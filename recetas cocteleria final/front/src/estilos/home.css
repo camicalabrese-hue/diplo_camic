@@ -1,0 +1,78 @@
+#carouselHome {
+    background-color: #000;
+}
+
+#carouselHome .carousel-item img {
+    height: 400px;
+    object-fit: contain;
+    background-color: #000;
+}
+
+
+.columnas {
+    display: flex;
+}
+
+
+.bienvenidos {
+    width: 75%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #ff914d;
+}
+
+.bienvenidos h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bienvenidos p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+.testimonios {
+    width: 25%;
+    background-color: #ffde59;
+    padding: 15px;
+}
+
+.testimonios h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonios .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    margin-top: 8px;
+}
+
+.testimonios .autor {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .columnas {
+        flex-direction: column;
+    }
+
+    .bienvenidos,
+    .testimonios {
+        width: 100%;
+    }
+
+    #carouselHome .carousel-item img {
+        height: 250px;
+    }
+}
